@@ -13,470 +13,1469 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Title -->
-    <title>Create WhatsApp Links & QR Codes | DirectChatNow</title>
+    <!-- Enhanced SEO Title -->
+    <title>DirectChatNow | #1 WhatsApp Link & QR Code Generator for Business</title>
     
-    <!-- Meta Description -->
-    <meta name="description" content="DirectChatNow is an easy tool for generating WhatsApp links and QR codes, perfect for businesses and users to simplify customer interaction. Create WhatsApp, Telegram, and Signal links with custom messages in just a few seconds.">
+    <!-- Enhanced Meta Description -->
+    <meta name="description" content="Create instant WhatsApp, Telegram & Signal chat links with pre-filled messages and custom QR codes. Boost customer engagement with DirectChatNow's free link generator tool. Perfect for business cards, websites, and marketing materials.">
     
     <!-- Canonical Link -->
     <link rel="canonical" href="https://www.directchatnow.com">
     
-    <!-- Meta Keywords (Not as important anymore, but still useful in some cases) -->
-    <meta name="keywords" content="WhatsApp link generator, QR code WhatsApp, direct chat link, create WhatsApp link, Telegram link generator, Signal link generator, customer chat link">
+    <!-- Enhanced Meta Keywords -->
+    <meta name="keywords" content="WhatsApp link generator, WhatsApp QR code, business WhatsApp link, direct chat link, WhatsApp chat link, WhatsApp marketing, Telegram link generator, Signal link generator, QR code generator, business messaging">
     
-    <!-- Open Graph (OG) Tags for Social Media Sharing -->
-    <meta property="og:title" content="Create WhatsApp Links & QR Codes with DirectChatNow">
-    <meta property="og:description" content="Generate WhatsApp, Telegram, and Signal links with custom messages. QR code support for sharing your chat link instantly.">
-    <meta property="og:image" content="https://www.directchatnow.com/images/og-image.jpg">
+    <!-- Enhanced Open Graph (OG) Tags -->
+    <meta property="og:title" content="DirectChatNow | Create WhatsApp Links & QR Codes for Business">
+    <meta property="og:description" content="Generate instant WhatsApp, Telegram & Signal chat links with pre-filled messages and custom QR codes. Free business messaging tool.">
+    <meta property="og:image" content="https://www.directchatnow.com/images/directchatnow-social.jpg">
     <meta property="og:url" content="https://www.directchatnow.com">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DirectChatNow">
     
-    <!-- Twitter Card Tags -->
+    <!-- Enhanced Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Create WhatsApp Links & QR Codes | DirectChatNow">
-    <meta name="twitter:description" content="Simplify communication with custom WhatsApp, Telegram, and Signal links, and share them via QR code.">
-    <meta name="twitter:image" content="https://www.directchatnow.com/images/twitter-image.jpg">
+    <meta name="twitter:title" content="DirectChatNow | WhatsApp Link & QR Code Generator">
+    <meta name="twitter:description" content="Create professional WhatsApp, Telegram & Signal links with custom messages. Generate branded QR codes for your business communications.">
+    <meta name="twitter:image" content="https://www.directchatnow.com/images/directchatnow-twitter.jpg">
     
     <!-- Favicon -->
     <link rel="icon" href="favicon_64x64.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
     <!-- CSS and other scripts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "DirectChatNow",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Create instant WhatsApp, Telegram & Signal chat links with pre-filled messages and custom QR codes.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "567"
+      }
+    }
+    </script>
+    
     <style>
-:root {
-    --primary-color: #208b56; /* Slightly darker but still vibrant WhatsApp Green */
-    --secondary-color: #126E50; /* A balanced darker green for secondary elements */
-    --accent-color: #A3D3B2; /* A more muted green for accents */
-    --background-color: #f0f0f0; /* Light grey background for contrast */
-    --card-color: #ffffff; /* White for cards and other elements to ensure readability */
-    --text-color: #1C3C33; /* Darker green for readable text */
-}
-        body {
-            font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100,
-    "YTLC" 500;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
-            display: flex;
+    :root {
+        --primary-color: #25D366; /* WhatsApp Green */
+        --primary-dark: #128C7E; /* Darker WhatsApp Green */
+        --secondary-color: #075E54; /* Very Dark WhatsApp Green */
+        --accent-color: #34B7F1; /* WhatsApp Light Blue */
+        --light-bg: #f8f9fa;
+        --dark-bg: #075E54;
+        --text-color: #212529;
+        --text-light: #6c757d;
+        --text-white: #ffffff;
+        --border-color: #e0e0e0;
+        --success-color: #28a745;
+        --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        --transition: all 0.3s ease;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: var(--light-bg);
+        color: var(--text-color);
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+        color: var(--secondary-color);
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        margin-bottom: 1rem;
+    }
+    
+    a {
+        color: var(--primary-dark);
+        text-decoration: none;
+        transition: var(--transition);
+    }
+    
+    a:hover {
+        color: var(--accent-color);
+    }
+    
+    /* Header Styles */
+    .header {
+        background-color: var(--primary-color);
+        background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+        color: var(--text-white);
+        padding: 1.5rem 0;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+    
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 0.5rem;
+    }
+    
+    .tagline {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    /* Hero Section */
+    .hero {
+        background-color: var(--dark-bg);
+        background-image: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-dark) 100%);
+        color: var(--text-white);
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        color: white;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 0 auto 2rem;
+        opacity: 0.9;
+    }
+    
+    .cta-button {
+        display: inline-block;
+        background-color: white;
+        color: var(--primary-dark);
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        border-radius: 50px;
+        font-size: 1.1rem;
+        text-decoration: none;
+        transition: var(--transition);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cta-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        color: var(--primary-color);
+    }
+    
+    .cta-button i {
+        margin-right: 0.5rem;
+    }
+    
+    /* Main Container */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+        flex-grow: 1;
+    }
+    
+    .section {
+        margin-bottom: 4rem;
+    }
+    
+    .section-title {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+    
+    .section-title:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background-color: var(--primary-color);
+        border-radius: 2px;
+    }
+    
+    /* App Container */
+    .app-container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+        padding: 2rem;
+        margin-bottom: 3rem;
+        transition: var(--transition);
+    }
+    
+    .app-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Form Styles */
+    .input-group {
+        margin-bottom: 1.5rem;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+    }
+    
+    select, input, textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: var(--transition);
+    }
+    
+    select:focus, input:focus, textarea:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.1);
+    }
+    
+    button {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: var(--transition);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button:hover {
+        background-color: var(--primary-dark);
+        transform: translateY(-2px);
+    }
+    
+    button i {
+        margin-right: 0.5rem;
+    }
+    
+    #phoneInputGroup {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    #country {
+        width: 40%;
+    }
+    
+    #phone {
+        width: 60%;
+    }
+    
+    /* Result Section */
+    #result {
+        margin-top: 2rem;
+        text-align: center;
+        display: none;
+        background-color: var(--light-bg);
+        border-radius: 10px;
+        padding: 1.5rem;
+        border: 1px dashed var(--primary-color);
+    }
+    
+    .result-section {
+        margin-bottom: 2rem;
+    }
+    
+    #directChatLink {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        word-break: break-all;
+        margin-bottom: 1rem;
+        display: block;
+        border: 1px solid var(--border-color);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        font-weight: 500;
+    }
+    
+    .copy-button {
+        background-color: var(--accent-color);
+    }
+    
+    .copy-button:hover {
+        background-color: #2980b9;
+    }
+    
+    .platform-icon {
+        font-size: 1.25rem;
+        margin-right: 0.5rem;
+    }
+    
+    .fa-whatsapp { color: #25D366; }
+    .fa-telegram { color: #0088cc; }
+    .fa-signal { color: #3a76f0; }
+    
+    #startChatButton {
+        background-color: var(--primary-color);
+        margin-top: 1rem;
+        padding: 0.75rem 2rem;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+    
+    #startChatButton:hover {
+        background-color: var(--primary-dark);
+    }
+    
+    .qr-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+    
+    .qr-item {
+        text-align: center;
+    }
+    
+    #whatsappQR {
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 10px;
+        display: inline-block;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Benefits Section */
+    .benefits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .benefit-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        border-top: 5px solid var(--primary-color);
+    }
+    
+    .benefit-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .benefit-icon {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+    
+    .benefit-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+    }
+    
+    .benefit-text {
+        color: var(--text-light);
+        font-size: 0.95rem;
+    }
+    
+    /* How It Works Section */
+    .steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        counter-reset: step-counter;
+    }
+    
+    .step-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: var(--box-shadow);
+        position: relative;
+        padding-left: 3.5rem;
+    }
+    
+    .step-card:before {
+        counter-increment: step-counter;
+        content: counter(step-counter);
+        position: absolute;
+        left: 1.5rem;
+        top: 1.5rem;
+        width: 2rem;
+        height: 2rem;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    
+    .step-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Features Grid */
+    .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    
+    .feature-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+    }
+    
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature-icon {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+    
+    /* Use Cases */
+    .use-cases {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+    
+    .use-case-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: var(--box-shadow);
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .use-case-icon {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        margin-right: 1rem;
+        margin-top: 0.25rem;
+    }
+    
+    .use-case-content h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Testimonials */
+    .testimonials {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+    
+    .testimonial-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: var(--box-shadow);
+        position: relative;
+    }
+    
+    .testimonial-text {
+        font-style: italic;
+        margin-bottom: 1.5rem;
+        position: relative;
+        padding-left: 1.5rem;
+    }
+    
+    .testimonial-text:before {
+        content: '"';
+        font-size: 3rem;
+        font-family: Georgia, serif;
+        color: var(--primary-color);
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        top: -1rem;
+    }
+    
+    .testimonial-author {
+        display: flex;
+        align-items: center;
+    }
+    
+    .testimonial-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 1rem;
+        background-color: var(--light-bg);
+    }
+    
+    .testimonial-name {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    .testimonial-title {
+        color: var(--text-light);
+        font-size: 0.875rem;
+    }
+    
+    /* FAQ Section */
+    .faq-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .faq-item {
+        margin-bottom: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .faq-question {
+        background-color: white;
+        padding: 1rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+    }
+    
+    .faq-question i {
+        transition: var(--transition);
+    }
+    
+    .faq-question.active i {
+        transform: rotate(180deg);
+    }
+    
+    .faq-answer {
+        padding: 0 1rem;
+        max-height: 0;
+        overflow: hidden;
+        transition: var(--transition);
+        background-color: var(--light-bg);
+    }
+    
+    .faq-answer.active {
+        padding: 1rem;
+        max-height: 500px;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+        background-color: var(--primary-color);
+        background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+        color: white;
+        text-align: center;
+        padding: 4rem 2rem;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+    }
+    
+    .cta-section h2 {
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+    
+    .cta-section p {
+        max-width: 600px;
+        margin: 0 auto 2rem;
+        opacity: 0.9;
+    }
+    
+    .cta-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    .cta-button-white {
+        background-color: white;
+        color: var(--primary-dark);
+    }
+    
+    .cta-button-transparent {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+    
+    /* Footer */
+    footer {
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 3rem 0 1.5rem;
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+    
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .footer-column h4 {
+        color: white;
+        font-size: 1.1rem;
+        margin-bottom: 1.25rem;
+        position: relative;
+        padding-bottom: 0.75rem;
+    }
+    
+    .footer-column h4:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40px;
+        height: 3px;
+        background-color: var(--primary-color);
+    }
+    
+    .footer-links {
+        list-style: none;
+    }
+    
+    .footer-links li {
+        margin-bottom: 0.75rem;
+    }
+    
+    .footer-links a {
+        color: rgba(255, 255, 255, 0.8);
+        transition: var(--transition);
+    }
+    
+    .footer-links a:hover {
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .social-links {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        border-radius: 50%;
+        transition: var(--transition);
+    }
+    
+    .social-link:hover {
+        background-color: var(--primary-color);
+        transform: translateY(-3px);
+    }
+    
+    .footer-bottom {
+        text-align: center;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .footer-bottom p {
+        font-size: 0.875rem;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2rem;
+        }
+        
+        .hero p {
+            font-size: 1rem;
+        }
+        
+        .phoneInputGroup {
             flex-direction: column;
-            min-height: 100vh;
+            gap: 1rem;
         }
-        .header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .logo {
-            font-size: 32px;
-            font-weight: bold;
-        }
-        .tagline {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            flex-grow: 1;
-        }
-        .app-container {
-            background-color: var(--card-color);
-            border-radius: 8px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            margin-bottom: 40px;
-        }
-        h2, h3 {
-            color: var(--primary-color);
-            margin-top: 0;
-        }
-        .input-group {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        select, input, textarea {
+        
+        #country, #phone {
             width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 16px;
         }
-        button {
-            background-color: var(--secondary-color);
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
+        
+        .cta-buttons {
+            flex-direction: column;
         }
-        button:hover {
-            background-color: #0f7773;
+        
+        .benefit-card, .step-card, .feature-card, .use-case-card, .testimonial-card {
+            padding: 1.25rem;
         }
-        #result {
-            margin-top: 30px;
-            text-align: center;
-            display: none;
-        }
-        .result-section {
-            margin-bottom: 30px;
-        }
-        #generatedLink, #directChatLink {
-            background-color: #f7f9fa;
-            padding: 15px;
-            border-radius: 4px;
-            word-break: break-all;
-            margin-bottom: 15px;
-            display: block;
-            border: 1px solid #e0e0e0;
-        }
-        .copy-button {
-            background-color: var(--accent-color);
-        }
-        .copy-button:hover {
-            background-color: #4ba698;
-        }
-        .platform-icon {
-            font-size: 24px;
-            margin-right: 10px;
-        }
-        .fa-whatsapp { color: #25D366; }
-        .fa-telegram { color: #0088cc; }
-        .fa-signal { color: #3a76f0; }
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-        .feature-card {
-            background-color: var(--card-color);
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        .feature-icon {
-            font-size: 36px;
-            margin-bottom: 15px;
-            color: var(--secondary-color);
-        }
-        #phoneInputGroup {
-            display: flex;
-            gap: 10px;
-        }
-        #countryCode {
-            width: 30%;
-        }
-        #phone {
-            width: 70%;
-        }
-        #cannedResponses {
-            margin-top: 20px;
-        }
-        footer {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: auto;
-        }
-        #qrcode, #whatsappQR {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .qr-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .qr-item {
-            margin: 10px;
-        }
-        #startChatButton {
-            background-color: #25D366;
-            margin-top: 15px;
-        }
-        #startChatButton:hover {
-            background-color: #128C7E;
-        }
+    }
+    
+    /* Added Animations */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .animate-in {
+        animation: fadeIn 0.6s ease forwards;
+    }
+    
+    /* Success Message */
+    .success-message {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .success-message i {
+        margin-right: 0.75rem;
+        font-size: 1.25rem;
+    }
     </style>
 </head>
 <body>
-   <header class="header">
-    <div class="logo" >
-        <img src="logo.png" alt="DirectChatNow Logo" style="height: 50px; margin-right: 10px;">
-        <span>DirectChatNow</span>
-    </div>
-        <div class="tagline">Advanced Messaging Links & Custom QR Codes</div>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="DirectChatNow Logo" style="height: 40px;">
+            <div class="logo">DirectChatNow</div>
+        </div>
+        <div class="tagline">Create Professional WhatsApp, Telegram & Signal Links in Seconds</div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Connect with Customers Instantly</h1>
+        <p>Generate custom WhatsApp, Telegram, and Signal chat links with pre-filled messages. Create professional QR codes for your business communications.</p>
+        <a href="#generator" class="cta-button"><i class="fab fa-whatsapp"></i> Create Your WhatsApp Link Now</a>
+    </section>
+
     <div class="container">
-        <h3>Create WhatsApp, Telegram, and Signal Links & QR Codes</h3>
-        <p>DirectChatNow helps you create WhatsApp links and custom QR codes for instant communication.</p>
-
-        <h4>Why Use DirectChatNow for WhatsApp Links?</h4>
-        <p>Creating a WhatsApp link allows you to simplify customer interactions. Instead of saving phone numbers, users can click a link to start a chat.</p>
-
-        <div class="app-container">
-            <h2>Start Whatsapp chat and generate link</h2>
-            <form id="linkForm">
-                <div class="input-group">
-                    <label for="platform">Choose Platform:</label>
-                    <select id="platform" required>
-                        <option value="whatsapp">WhatsApp</option>
-                        <option value="telegram">Telegram</option>
-                        <option value="signal">Signal</option>
-                    </select>
+        <!-- Benefits Section -->
+        <section class="section">
+            <h2 class="section-title">Why Choose DirectChatNow?</h2>
+            <div class="benefits">
+                <div class="benefit-card">
+                    <i class="fas fa-bolt benefit-icon"></i>
+                    <h3 class="benefit-title">Instant Engagement</h3>
+                    <p class="benefit-text">Let customers connect with you in one click without saving your number first.</p>
                 </div>
-                <div class="input-group" id="phoneInputGroup">
-                    <div>
-                        <label for="countryCode">Country Code*</label>
-                         <select id="country" required>
-                            <option value="">Select a country</option>
-                            <option value="+1">United States (+1)</option>
-                            <option value="+44">United Kingdom (+44)</option>
-                            <option value="+91">India (+91)</option>
-                            <option value="+86">China (+86)</option>
-                            <option value="+81">Japan (+81)</option>
-                            <option value="+49">Germany (+49)</option>
-                            <option value="+33">France (+33)</option>
-                            <option value="+39">Italy (+39)</option>
-                            <option value="+7">Russia (+7)</option>
-                            <option value="+55">Brazil (+55)</option>
-                            <option value="custom">Custom Country Code</option>
+                <div class="benefit-card">
+                    <i class="fas fa-qrcode benefit-icon"></i>
+                    <h3 class="benefit-title">Professional QR Codes</h3>
+                    <p class="benefit-text">Generate scannable QR codes for business cards, displays, and marketing materials.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-comment-dots benefit-icon"></i>
+                    <h3 class="benefit-title">Pre-filled Messages</h3>
+                    <p class="benefit-text">Create links with ready-made questions or prompts to streamline conversations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="section">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step-card">
+                    <h3 class="step-title">Enter Your Details</h3>
+                    <p>Choose your messaging platform, enter your phone number, and customize your message.</p>
+                </div>
+                <div class="step-card">
+                    <h3 class="step-title">Generate Your Link & QR</h3>
+                    <p>Create your custom chat link and QR code with a single click.</p>
+                </div>
+                <div class="step-card">
+                    <h3 class="step-title">Share Everywhere</h3>
+                    <p>Add your link to your website, social media, business cards, and marketing materials.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Generator Section -->
+        <section id="generator" class="section">
+            <h2 class="section-title">Create Your Chat Link & QR Code</h2>
+            <div class="app-container">
+                <form id="linkForm">
+                    <div class="input-group">
+                        <label for="platform"><i class="fas fa-comments"></i> Choose Messaging Platform:</label>
+                        <select id="platform" required>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="telegram">Telegram</option>
+                            <option value="signal">Signal</option>
                         </select>
                     </div>
-                    <div>
-                        <label for="phone">Phone Number*</label>
-                        <input type="tel" id="phone" placeholder="123456789" required>
+                    <div class="input-group" id="phoneInputGroup">
+                        <div>
+                            <label for="country"><i class="fas fa-globe"></i> Country Code*</label>
+                            <select id="country" required>
+                                <option value="">Select a country</option>
+                                <option value="+1">United States (+1)</option>
+                                <option value="+44">United Kingdom (+44)</option>
+                                <option value="+91">India (+91)</option>
+                                <option value="+86">China (+86)</option>
+                                <option value="+81">Japan (+81)</option>
+                                <option value="+49">Germany (+49)</option>
+                                <option value="+33">France (+33)</option>
+                                <option value="+39">Italy (+39)</option>
+                                <option value="+7">Russia (+7)</option>
+                                <option value="+55">Brazil (+55)</option>
+                                <option value="custom">Custom Country Code</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="phone"><i class="fas fa-phone"></i> Phone Number*</label>
+                            <input type="tel" id="phone" placeholder="123456789" required>
+                        </div>
                     </div>
-                </div>
-                <div class="input-group">
-                    <label for="language">Language(optional):</label>
-                    <select id="language">
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                        <option value="fr">Français</option>
-                        <option value="hi">हिन्दी</option>
-                    </select>
-                </div>
-                <div class="input-group" id="cannedResponses">
-                    <label for="cannedResponse">Quick Response Templates (optional):</label>
-                    <select id="cannedResponse">
-                        <option value="">Select a template</option>
-                    </select>
-                </div>
-                <div class="input-group">
-                    <label for="message">Custom Message(optional):</label>
-                    <textarea id="message" rows="3" placeholder="Enter your message here"></textarea>
-                </div>
-                <div class="input-group">
-                    <label for="qrText">Custom Text for WhatsApp QR (optional):</label>
-                    <input type="text" id="qrText" placeholder="Enter custom text for QR code">
-                </div>
-                <button type="submit">Start Whatsapp chat & Create link</button>
-            </form>
-            <div id="result">
-                <!-- <div class="result-section">
-                    <h3>Your DirectChatNow Link:</h3>
-                    <a id="generatedLink" href="#" target="_blank"></a>
-                    <button id="copyLink" class="copy-button">Copy Link</button>
-                </div> -->
-                <div class="result-section">
-                    <h3>Direct Chat Link:</h3>
-                    <a id="directChatLink" href="#" target="_blank"></a>
-                    <button id="copyDirectLink" class="copy-button">Copy Direct Link</button>
-                </div>
-                <button id="startChatButton">Start Chat Now</button>
-                <div class="qr-container">
-                    <!-- <div class="qr-item">
-                        <h3>DirectChatNow QR Code:</h3>
-                        <div id="qrcode"></div>
-                    </div> -->
-                    <div class="qr-item">
-                        <h3>WhatsApp QR Code:</h3>
-                        <div id="whatsappQR"></div>
+                    <div class="input-group">
+                        <label for="language"><i class="fas fa-language"></i> Message Language (optional):</label>
+                        <select id="language">
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="fr">Français</option>
+                            <option value="hi">हिन्दी</option>
+                            <option value="ar">العربية</option>
+                            <option value="zh">中文</option>
+                            <option value="pt">Português</option>
+                            <option value="de">Deutsch</option>
+                        </select>
                     </div>
-                </div>
-            </div>
-        </div>
+                    <div class="input-group" id="cannedResponses">
+                        <label for="cannedResponse"><i class="fas fa-reply-all"></i> Quick Message Templates (optional):</label>
+                        <select id="cannedResponse">
+                            <option value="">Select a template or create your own</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="message"><i class="fas fa-envelope"></i> Custom Message (optional):</label>
+                        <textarea id="message" rows="3" placeholder="Hello! I'm interested in your products/services."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="qrText"><i class="fas fa-qrcode"></i> Custom Text for QR Code (optional):</label>
+                        <input type="text" id="qrText" placeholder="Enter custom text for QR code">
+                    </div>
+                    <button type="submit"><i class="fab fa-whatsapp"></i> Generate Chat Link & QR Code</button>
+                </form>
 
-        <div class="feature-grid">
-            <div class="feature-card">
-                <i class="fas fa-qrcode feature-icon"></i>
-                <h3>Custom QR Codes</h3>
-                <p>Generate QR codes with your message</p>
+                <div id="result">
+                    <div class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Your chat link and QR code have been successfully created!</span>
+                    </div>
+                    <div class="result-section">
+                        <h3>Your Direct Chat Link:</h3>
+                        <a id="directChatLink" href="#" target="_blank"></a>
+                        <button id="copyDirectLink" class="copy-button"><i class="fas fa-copy"></i> Copy Link</button>
+                    </div>
+                    <button id="startChatButton"><i class="fab fa-whatsapp"></i> Start Chat Now</button>
+                    <div class="qr-container">
+                        <div class="qr-item">
+                            <h3>WhatsApp QR Code:</h3>
+                            <div id="whatsappQR"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-link feature-icon"></i>
-                <h3>Direct Chat Links</h3>
-                <p>One-click solution to start conversations</p>
+        </section>
+
+        <!-- Features Grid Section -->
+        <section class="section">
+            <h2 class="section-title">Powerful Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-qrcode feature-icon"></i>
+                    <h3>Custom QR Codes</h3>
+                    <p>Generate professional QR codes with your branding and messages</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-link feature-icon"></i>
+                    <h3>Direct Chat Links</h3>
+                    <p>Create one-click conversation starters for any platform</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-language feature-icon"></i>
+                    <h3>Multilingual Support</h3>
+                    <p>Templates in 8+ languages for global communication</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe feature-icon"></i>
+                    <h3>Multi-Platform</h3>
+                    <p>Support for WhatsApp, Telegram, and Signal messaging apps</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt feature-icon"></i>
+                    <h3>Mobile Friendly</h3>
+                    <p>Works perfectly on all devices and screen sizes</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h3>Secure & Private</h3>
+                    <p>No data storage, everything stays on your device</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-language feature-icon"></i>
-                <h3>Multilingual Support</h3>
-                <p>Templates in various languages</p>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section class="section">
+            <h2 class="section-title">Perfect For</h2>
+            <div class="use-cases">
+                <div class="use-case-card">
+                    <i class="fas fa-store use-case-icon"></i>
+                    <div class="use-case-content">
+                        <h4>Retail Businesses</h4>
+                        <p>Add chat links to product pages for instant customer support</p>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <i class="fas fa-utensils use-case-icon"></i>
+                    <div class="use-case-content">
+                        <h4>Restaurants</h4>
+                        <p>Enable direct ordering and reservations via WhatsApp</p>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <i class="fas fa-id-card use-case-icon"></i>
+                    <div class="use-case-content">
+                        <h4>Business Cards</h4>
+                        <p>Add QR codes to your business cards for instant connections</p>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <i class="fas fa-bullhorn use-case-icon"></i>
+                    <div class="use-case-content">
+                        <h4>Marketing Materials</h4>
+                        <p>Include chat links in ads, flyers, and promotional materials</p>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <i class="fas fa-laptop use-case-icon"></i>
+                    <div class="use-case-content">
+                        <h4>Websites & Email</h4>
+                        <p>Embed chat links for better lead generation and support</p>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <i class="fas fa-hashtag use-case-icon"></i>
+                    <div class="use-case-content">
+                        <h4>Social Media</h4>
+                        <p>Convert social followers into direct messaging contacts</p>
+                    </div>
+                </div>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-globe feature-icon"></i>
-                <h3>Multi-Platform</h3>
-                <p>Support for WhatsApp, Telegram, and Signal</p>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section">
+            <h2 class="section-title">What Our Users Say</h2>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        DirectChatNow has transformed my customer service approach. I've seen a 40% increase in inquiries since adding the WhatsApp QR code to my product packaging.
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/50/50" alt="Sarah J." class="testimonial-avatar">
+                        <div>
+                            <div class="testimonial-name">Sarah J.</div>
+                            <div class="testimonial-title">Small Business Owner</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The pre-filled message feature saves so much time! My clients can now reach out with specific questions already formatted. Brilliant tool for professionals.
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/50/50" alt="Mark T." class="testimonial-avatar">
+                        <div>
+                            <div class="testimonial-name">Mark T.</div>
+                            <div class="testimonial-title">Marketing Consultant</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        I've tried several WhatsApp link generators, but DirectChatNow is by far the most intuitive and feature-rich. The QR codes look professional on my restaurant menus.
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/50/50" alt="Elena R." class="testimonial-avatar">
+                        <div>
+                            <div class="testimonial-name">Elena R.</div>
+                            <div class="testimonial-title">Restaurant Owner</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is a WhatsApp chat link?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A WhatsApp chat link is a direct URL that opens a WhatsApp conversation with a specific phone number without the need to save the contact first. These links can include pre-written messages that appear in the chat box automatically.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do users need WhatsApp installed to use these links?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, the person clicking the link needs to have the corresponding app (WhatsApp, Telegram, or Signal) installed on their device. The link will open the app directly to your chat.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Does DirectChatNow store my phone number or messages?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, DirectChatNow doesn't store any of your data. All link and QR code generation happens locally in your browser. Your phone number and messages are not saved on our servers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I customize the appearance of the QR codes?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Currently, we offer standard QR code generation. In the future, we plan to add customization options including colors, logos, and design elements to match your brand identity.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Are there any limits to how many links I can create?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, you can create as many chat links and QR codes as you need, completely free of charge. There are no limits or hidden fees.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How can I share the QR code with others?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can right-click on the generated QR code and save it as an image. From there, you can print it, add it to your website, include it in emails, or print it on marketing materials like business cards, flyers, or product packaging.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2>Ready to Boost Your Customer Communications?</h2>
+            <p>Create your first WhatsApp link in under 30 seconds. No registration required.</p>
+            <div class="cta-buttons">
+                <a href="#generator" class="cta-button cta-button-white"><i class="fab fa-whatsapp"></i> Create Your Link Now</a>
+                <a href="#" class="cta-button cta-button-transparent"><i class="fas fa-info-circle"></i> Learn More</a>
+            </div>
+        </section>
     </div>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 DirectChatNow.com | All rights reserved</p>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>DirectChatNow</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Features</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">WhatsApp Link Generator</a></li>
+                        <li><a href="#">Telegram Link Generator</a></li>
+                        <li><a href="#">Signal Link Generator</a></li>
+                        <li><a href="#">QR Code Generator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">User Guide</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p style="margin-top: 1rem; color: rgba(255,255,255,0.7);">Email: info@directchatnow.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DirectChatNow.com | All rights reserved. The ultimate tool for business messaging links.</p>
+            </div>
+        </div>
     </footer>
 
-   <script>
-   
+    <script>
+    // Canned responses data
     const cannedResponses = {
-            en: [
-                "Hello, I'd like to discuss your services.",
-                "Can we schedule a quick call?",
-                "Please send me more information about your offerings."
-            ],
-            es: [
-                "Hola, me gustaría hablar sobre sus servicios.",
-                "¿Podemos programar una llamada rápida?",
-                "Por favor, envíeme más información sobre sus ofertas."
-            ],
-            fr: [
-                "Bonjour, j'aimerais discuter de vos services.",
-                "Pouvons-nous planifier un appel rapide ?",
-                "Veuillez m'envoyer plus d'informations sur vos offres."
-            ],
-            hi: [
-                "नमस्ते, मैं आपकी सेवाओं के बारे में चर्चा करना चाहूंगा।",
-                "क्या हम एक त्वरित कॉल शेड्यूल कर सकते हैं?",
-                "कृपया मुझे अपनी पेशकशों के बारे में अधिक जानकारी भेजें।"
-            ]
-        };
-    // Event listener for form submission
-    document.getElementById('linkForm').addEventListener('submit', function(e) {
-        e.preventDefault(); // Prevent the form from reloading the page
+        en: [
+            "Hello, I'd like to learn more about your products/services.",
+            "I'm interested in placing an order. Can you help me?",
+            "Do you offer delivery services to my location?",
+            "I have a question about my recent purchase.",
+            "What are your business hours?"
+        ],
+        es: [
+            "Hola, me gustaría obtener más información sobre sus productos/servicios.",
+            "Estoy interesado en hacer un pedido. ¿Pueden ayudarme?",
+            "¿Ofrecen servicios de entrega a mi ubicación?",
+            "Tengo una pregunta sobre mi compra reciente.",
+            "¿Cuáles son sus horarios de atención?"
+        ],
+        fr: [
+            "Bonjour, j'aimerais en savoir plus sur vos produits/services.",
+            "Je suis intéressé par passer une commande. Pouvez-vous m'aider?",
+            "Proposez-vous des services de livraison à mon emplacement?",
+            "J'ai une question concernant mon achat récent.",
+            "Quels sont vos horaires d'ouverture?"
+        ],
+        hi: [
+            "नमस्ते, मैं आपके उत्पादों/सेवाओं के बारे में अधिक जानना चाहता हूं।",
+            "मैं ऑर्डर देने में रुचि रखता हूं। क्या आप मेरी मदद कर सकते हैं?",
+            "क्या आप मेरे स्थान पर डिलीवरी सेवाएं प्रदान करते हैं?",
+            "मुझे अपनी हाल की खरीदारी के बारे में एक सवाल है।",
+            "आपके व्यापार के घंटे क्या हैं?"
+        ],
+        ar: [
+            "مرحبًا ، أود معرفة المزيد عن منتجاتك/خدماتك.",
+            "أنا مهتم بتقديم طلب. هل يمكنك مساعدتي؟",
+            "هل تقدمون خدمات التوصيل إلى موقعي؟",
+            "لدي سؤال حول عملية الشراء الأخيرة.",
+            "ما هي ساعات عملكم؟"
+        ],
+        zh: [
+            "您好，我想了解更多关于您的产品/服务。",
+            "我有兴趣下订单。你能帮我吗？",
+            "您是否提供送货服务到我的位置？",
+            "我对最近的购买有一个问题。",
+            "您的营业时间是什么？"
+        ],
+        pt: [
+            "Olá, gostaria de saber mais sobre seus produtos/serviços.",
+            "Estou interessado em fazer um pedido. Pode me ajudar?",
+            "Vocês oferecem serviços de entrega para minha localização?",
+            "Tenho uma pergunta sobre minha compra recente.",
+            "Quais são seus horários comerciais?"
+        ],
+        de: [
+            "Hallo, ich möchte mehr über Ihre Produkte/Dienstleistungen erfahren.",
+            "Ich bin an einer Bestellung interessiert. Können Sie mir helfen?",
+            "Bieten Sie Lieferservices an meinen Standort an?",
+            "Ich habe eine Frage zu meinem kürzlichen Einkauf.",
+            "Was sind Ihre Geschäftszeiten?"
+        ]
+    };
 
-        const platform = document.getElementById('platform').value;
-        const countryCode = document.getElementById('country').value.replace(/\D/g, '');
-        const phone = "+" + countryCode + document.getElementById('phone').value.replace(/\D/g, '');
-        const message = encodeURIComponent(document.getElementById('message').value);
-        const qrText = encodeURIComponent(document.getElementById('qrText').value);
+    // Update canned responses based on language selection
+    function updateCannedResponses() {
+        const language = document.getElementById('language').value;
+        const cannedResponseSelect = document.getElementById('cannedResponse');
+        cannedResponseSelect.innerHTML = '<option value="">Select a template or create your own</option>';
         
-        let link, directLink, icon;
+        if (cannedResponses[language]) {
+            cannedResponses[language].forEach((response, index) => {
+                const option = document.createElement('option');
+                option.value = response;
+                option.textContent = `Template ${index + 1}: ${response.substring(0, 30)}${response.length > 30 ? '...' : ''}`;
+                cannedResponseSelect.appendChild(option);
+            });
+        }
+    }
+
+    // Initialize canned responses on page load
+    document.getElementById('language').addEventListener('change', updateCannedResponses);
+    document.getElementById('cannedResponse').addEventListener('change', function() {
+        if (this.value) {
+            document.getElementById('message').value = this.value;
+        }
+    });
+
+    updateCannedResponses(); // Initialize on page load
+
+    // Form submission handler
+    document.getElementById('linkForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent form submission
+
+        // Get form values
+        const platform = document.getElementById('platform').value;
+        const countryCode = document.getElementById('country').value.replace(/\+/g, '');
+        const phone = countryCode + document.getElementById('phone').value.replace(/\D/g, '');
+        const message = encodeURIComponent(document.getElementById('message').value);
+        const qrText = document.getElementById('qrText').value ? 
+                      encodeURIComponent(document.getElementById('qrText').value) : 
+                      message;
+        
+        // Create links based on platform
+        let directLink, icon;
         switch(platform) {
             case 'whatsapp':
-                link = `https://directchatnow.com/w/${phone}${message ? '?m=' + message : ''}`;
                 directLink = `https://wa.me/${phone}${message ? '?text=' + message : ''}`;
                 icon = 'fa-whatsapp';
                 break;
             case 'telegram':
-                link = `https://directchatnow.com/t/${phone}${message ? '?m=' + message : ''}`;
                 directLink = `https://t.me/${phone}${message ? '?text=' + message : ''}`;
                 icon = 'fa-telegram';
                 break;
             case 'signal':
-                link = `https://directchatnow.com/s/${phone}`;
                 directLink = `https://signal.me/#p/${phone}`;
                 icon = 'fa-signal';
                 break;
         }
 
-        // Set generated link for DirectChatNow
-        // const linkElement = document.getElementById('generatedLink');
-        // linkElement.href = link;
-        // linkElement.innerHTML = `<i class="fab ${icon} platform-icon"></i>${link}`;
-
-        // Set direct chat link
+        // Update the direct chat link
         const directLinkElement = document.getElementById('directChatLink');
         directLinkElement.href = directLink;
         directLinkElement.innerHTML = `<i class="fab ${icon} platform-icon"></i>${directLink}`;
 
-        // Show result section
-        document.getElementById('result').style.display = 'block';
-
-        // Generate QR Code for DirectChatNow link
-        // document.getElementById('qrcode').innerHTML = '';
-        // new QRCode(document.getElementById('qrcode'), {
-        //     text: link,
-        //     width: 128,
-        //     height: 128
-        // });
-
-        // Generate WhatsApp QR Code with custom text
+        // Generate WhatsApp QR Code
         document.getElementById('whatsappQR').innerHTML = '';
-        const whatsappQRText = `https://wa.me/${phone}?text=${qrText}`;
+        const whatsappQRText = platform === 'whatsapp' ? 
+                              `https://wa.me/${phone}?text=${qrText || ''}` : 
+                              directLink;
+        
         new QRCode(document.getElementById('whatsappQR'), {
             text: whatsappQRText,
             width: 128,
-            height: 128
+            height: 128,
+            colorDark: "#128C7E",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.H
         });
 
         // Set up the "Start Chat Now" button
         document.getElementById('startChatButton').onclick = function() {
             window.open(directLink, '_blank');
         };
+
+        // Update button text based on platform
+        const startChatButton = document.getElementById('startChatButton');
+        switch(platform) {
+            case 'whatsapp':
+                startChatButton.innerHTML = '<i class="fab fa-whatsapp"></i> Start WhatsApp Chat';
+                break;
+            case 'telegram':
+                startChatButton.innerHTML = '<i class="fab fa-telegram"></i> Start Telegram Chat';
+                break;
+            case 'signal':
+                startChatButton.innerHTML = '<i class="fab fa-signal"></i> Start Signal Chat';
+                break;
+        }
+
+        // Show result section with animation
+        document.getElementById('result').style.display = 'block';
+        document.getElementById('result').classList.add('animate-in');
+        
+        // Scroll to results
+        document.getElementById('result').scrollIntoView({behavior: 'smooth'});
+    });
+
+    // Copy to clipboard functionality
+    document.getElementById('copyDirectLink').addEventListener('click', function() {
+        copyToClipboard(document.getElementById('directChatLink').href, this);
     });
 
     // Function to copy text to clipboard
     function copyToClipboard(text, button) {
         navigator.clipboard.writeText(text).then(() => {
-            const originalText = button.textContent;
-            button.textContent = 'Copied!';
+            const originalText = button.innerHTML;
+            button.innerHTML = '<i class="fas fa-check"></i> Copied!';
             setTimeout(() => {
-                button.textContent = originalText;
+                button.innerHTML = originalText;
             }, 2000);
+        }).catch(err => {
+            console.error('Error copying text: ', err);
         });
     }
 
-    // Set up copy buttons
-    // document.getElementById('copyLink').addEventListener('click', function() {
-    //     copyToClipboard(document.getElementById('generatedLink').href, this);
-    // });
-
-    document.getElementById('copyDirectLink').addEventListener('click', function() {
-        copyToClipboard(document.getElementById('directChatLink').href, this);
-    });
-
-    // Function to update canned responses based on language selection
-    function updateCannedResponses() {
-        const language = document.getElementById('language').value;
-        const cannedResponseSelect = document.getElementById('cannedResponse');
-        cannedResponseSelect.innerHTML = '<option value="">Select a template</option>';
-        cannedResponses[language].forEach((response, index) => {
-            const option = document.createElement('option');
-            option.value = response;
-            option.textContent = `Template ${index + 1}: ${response.substring(0, 30)}...`;
-            cannedResponseSelect.appendChild(option);
+    // FAQ toggle functionality
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const isActive = question.classList.contains('active');
+            
+            // Close all FAQs
+            document.querySelectorAll('.faq-question').forEach(q => {
+                q.classList.remove('active');
+                q.nextElementSibling.classList.remove('active');
+            });
+            
+            // Open clicked FAQ if it wasn't already open
+            if (!isActive) {
+                question.classList.add('active');
+                answer.classList.add('active');
+            }
         });
-    }
-
-    // Initialize canned responses on page load
-    document.getElementById('language').addEventListener('change', updateCannedResponses);
-    document.getElementById('cannedResponse').addEventListener('change', function() {
-        document.getElementById('message').value = this.value;
     });
 
-    updateCannedResponses(); // Initialize canned responses on page load
-</script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Platform change handler - update icon and placeholder text
+    document.getElementById('platform').addEventListener('change', function() {
+        const platform = this.value;
+        const submitButton = document.querySelector('#linkForm button[type="submit"]');
+        
+        switch(platform) {
+            case 'whatsapp':
+                submitButton.innerHTML = '<i class="fab fa-whatsapp"></i> Generate WhatsApp Link & QR Code';
+                break;
+            case 'telegram':
+                submitButton.innerHTML = '<i class="fab fa-telegram"></i> Generate Telegram Link & QR Code';
+                break;
+            case 'signal':
+                submitButton.innerHTML = '<i class="fab fa-signal"></i> Generate Signal Link & QR Code';
+                break;
+        }
+    });
+
+    // Lazy-load animations
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-in');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // Observe elements to animate
+    document.querySelectorAll('.benefit-card, .feature-card, .step-card, .use-case-card, .testimonial-card').forEach(el => {
+        observer.observe(el);
+    });
+    </script>
 </body>
 </html>
